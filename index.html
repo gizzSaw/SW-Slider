@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="slidershow-container">
+        <div class="mySlides fade">
+            <img src="img/01.jpg" style="width: 100%" alt="сlonetrooper">
+            <div class="text">Clonetrooper</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/02.jpg" style="width: 100%" alt="at-at">
+            <div class="text">AT-AT</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/03.jpg" style="width: 100%" alt="the force awakends">
+            <div class="text">The Force Awakens</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/04.jpg" style="width: 100%" alt="stormtrooper">
+            <div class="text">Stormtrooper</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/05.jpg" style="width: 100%" alt="atack">
+            <div class="text">Atack</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/06.jpg" style="width: 100%" alt="Dart Weider">
+            <div class="text">Dart Weider</div>
+        </div>
+        <a class="prev" onclick="pluseSlides(-1)">&#10094</a>
+        <a class="next" onclick="pluseSlides(1)">&#10095</a>    
+    </div>
+    <br>
+
+    <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
